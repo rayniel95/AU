@@ -1,5 +1,5 @@
 {
-  "name": "hash-message",
+  "name": "recover-key",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
