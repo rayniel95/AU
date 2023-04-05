@@ -1,0 +1,17 @@
+{
+  "name": "hash-message",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Rainyel Ramos",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "ethereum-cryptography": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
