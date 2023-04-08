@@ -1,5 +1,5 @@
 {
-  "name": "key-to-address",
+  "name": "mempool",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
