@@ -10,6 +10,16 @@ class Blockchain {
         }
         this.chain.push(block)
     }
+    isValid(){
+        return this.chain.every(
+            (value, index, array)=>{
+                if (index === 0) {
+                    return true
+                }
+                return array[index-1].toHash().toString() === value.previousHash.toString()
+            }
+        )
+    }
 }
 
 module.exports = Blockchain;
